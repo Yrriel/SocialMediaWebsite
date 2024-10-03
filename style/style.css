@@ -98,7 +98,7 @@
   }
 
   .button-container{
-    margin-top: 40px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     
@@ -119,4 +119,9 @@
     animation-duration: 500ms;
     background-color: #b85b49;
       color: cadetblue;
+  }
+
+  .p-container{
+    margin-top: 20px;
+    text-align: center;
   }
