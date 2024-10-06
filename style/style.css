@@ -25,6 +25,7 @@
 
   .login-pic{
     /* position: absolute; */
+
     height: 150px;
     border-radius: 60px;
     animation: picpic ;
@@ -33,20 +34,17 @@
 
   @keyframes picpic {
     0%{
-      position: absolute;
+      transform: translateY(-5vh);
       height: 40vh;
-      top:25%;
     }
 
     50%{
-      position: absolute;
+      transform: translateY(-5vh);
       height: 40vh;
-      top:25%;
     }
 
     100%{
-      
-      top:25%;
+      transform: translateY(0);
       height: 150px;
     }
   } 
@@ -98,7 +96,7 @@
   }
 
   .button-container{
-    margin-top: 10px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     

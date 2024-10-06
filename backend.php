@@ -1,9 +1,5 @@
 <?php
 
-$noOneDonated = false;
-
-if($noOneDonated){
-    //awit
-}
+//add somethin here
 
 ?>
